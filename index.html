@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz-App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0" />
+  </head>
+  <body>
+    <!--- Quiz App Container --->
+    <div class="config-container">
+      <h1 class="config-title">Quiz App</h1>
+
+      <div class="config-option">
+        <div class="option-title">Select Category</div>
+        <div class="category-options">
+          <button class="category-options active">Programming</button>
+          <button class="category-options">Geography</button>
+          <button class="category-options">Mathematics</button>
+          <button class="category-options">Entertainment</button>
+        </div>
+      </div>
+   
+
+    <div class="config-option">
+      <div class="option-title">No. of Questions</div>
+      <div class="question-options">
+        <button class="question-options">5</button>
+        <button class="question-options active">10</button>
+        <button class="question-options">15</button>
+        <button class="question-options">20</button>
+        <button class="question-options">25</button>
+      </div>
+    </div>
+    <button class="start-quiz-btn">Start Quiz</button>
+  </div>
+
+  <!---- Quiz Container --->
+ <div class="quiz-container">
+  <header class="quiz-header">
+  <h2 class="quiz-title">Quiz Application</h2>
+  <div class="quiz-timer">
+    <span class="material-symbols-rounded">timer</span>
+    <p class="time-duration">15s</p>
+  </div>
+</header>
+
+<div class="quiz-content">
+  <h1 class="question-text">In JavaScript, how do you create a function?</h1>
+  <ul class="answer-options">
+    <li class="answer-option">
+      <p>create function myfunction()</p>
+    </li>
+    <li class="answer-option correct">
+      <p>function myfunction()</p>
+      <span class="material-symbols-rounded">check_circle</span>
+    </li>
+    <li class="answer-option incorrect">
+      <p>def function myfunction()</p>
+      <span class="material-symbols-rounded">cancel</span>
+    </li>
+    <li class="answer-option">
+      <p>func myfunction()</p>
+    </li>
+  </ul>
+</div>
+
+<div class="quiz-footer">
+  <p class="question-status"><b>2</b> of <b>10</b>Questions</p>
+  <button class="next-question-btn">
+    Next
+    <span class="material-symbols-rounded">arrow_right_alt</span>
+  </button>
+</div>
+ </div>
+
+ <!---result container-->
+ <div class="result-container">
+  <img src="" alt="">
+  <h2 class="result-title">Quiz Completed!</h2>
+  <p class="result-message">You answered <b>3</b> out of <b>5</b>questions correctly. Great effort!</p>
+  <button class="try-again-btn">Try Again</button>
+ </div>
+  </body>
+  <script src="app.js"></script>
+</html>

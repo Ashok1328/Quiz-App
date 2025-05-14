@@ -1,0 +1,23 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.body {
+  background: linear-gradient(135deg, rgb(226, 72, 72), rgb(54, 190, 129));
+}
+
+.container {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
